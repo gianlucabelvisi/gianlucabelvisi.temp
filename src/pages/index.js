@@ -11,11 +11,6 @@ import Email from "../components/Email";
 const Index = () => (
     <Layout>
         <Seo title="Home"/>
-        <Hero/>
-        <Trips heading="My favorite stuff"/>
-        <Testimonials/>
-        <Stats/>
-        <Email/>
     </Layout>
 )
 
