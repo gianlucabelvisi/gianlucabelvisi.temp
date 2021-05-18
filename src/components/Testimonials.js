@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
 import {GatsbyImage, getImage} from "gatsby-plugin-image"
-import {FaRegLightbulb, IoMdCheckmarkCircleOutline} from "react-icons/all";
+import {FaRegLightbulb} from "react-icons/fa";
+import {IoMdCheckmarkCircleOutline} from "react-icons/io";
 import {graphql, useStaticQuery} from "gatsby";
 
 
