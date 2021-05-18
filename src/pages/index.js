@@ -9,9 +9,7 @@ import Stats from "../components/Stats";
 import Email from "../components/Email";
 
 const Index = () => (
-    <Layout>
         <Seo title="Home"/>
-    </Layout>
 )
 
 export default Index
