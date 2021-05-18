@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "gianlucabelvisi.com",
+    description: `Homepage of Gianluca Belvisi.`,
+    author: `@gbelvs`,
   },
   flags: {
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
