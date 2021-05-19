@@ -13,6 +13,7 @@ const Index = () => (
         <Hero/>
         <Trips heading="My favorite stuff"/>
         <Testimonials/>
+        <Stats/>
     </Layout>
 )
 
