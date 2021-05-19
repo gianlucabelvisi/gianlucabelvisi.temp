@@ -4,5 +4,23 @@
     "alt": "Travel",
     "name": "Travel",
     "button": "View"
+  },
+  {
+    "img": "../assets/images/travel-2.jpg",
+    "alt": "Travel",
+    "name": "Travel",
+    "button": "View"
+  },
+  {
+    "img": "../assets/images/travel-3.jpg",
+    "alt": "Travel",
+    "name": "Travel",
+    "button": "View"
+  },
+  {
+    "img": "../assets/images/travel-4.jpg",
+    "alt": "Travel",
+    "name": "Travel",
+    "button": "View"
   }
 ]
