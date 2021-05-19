@@ -13,7 +13,7 @@ const Index = () => (
         <Seo title="Home"/>
         <Hero/>
         <Testimonials/>
-        <Trips heading="My favorite stuff"/>
+        <Trips/>
         <Stats/>
         <Email/>
     </Layout>

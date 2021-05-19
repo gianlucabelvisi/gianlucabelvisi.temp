@@ -14,6 +14,14 @@ const Trips = ({heading}) => {
                 alt
                 button
                 name
+                img {
+                  childImageSharp {
+                    gatsbyImageData(
+                     placeholder: BLURRED
+                     formats: [AUTO, WEBP, AVIF]
+                    )
+                  }
+                }
               }
             }
           }
@@ -29,6 +37,7 @@ const Trips = ({heading}) => {
                 {data.allTripsJson.edges.map(edge => {
                     return (
                         <ProductCard>
+                            <ProductImg image={getImage(edge.node.img)} alt={edge.node.alt}/>
                             <ProductInfo>
                                 <TextWrap>
                                     <ImLocation/>
