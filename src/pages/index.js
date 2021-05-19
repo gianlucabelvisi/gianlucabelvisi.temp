@@ -6,6 +6,7 @@ import Testimonials from "../components/Testimonials";
 import Hero from "../components/Hero";
 import Trips from "../components/Trips";
 import Stats from "../components/Stats";
+import Email from "../components/Email";
 
 const Index = () => (
     <Layout>
@@ -14,6 +15,7 @@ const Index = () => (
         <Trips heading="My favorite stuff"/>
         <Testimonials/>
         <Stats/>
+        <Email/>
     </Layout>
 )
 
